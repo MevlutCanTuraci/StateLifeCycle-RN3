@@ -5,6 +5,7 @@ import StateEx1 from "./components/StateEx1";
 import LifeCycleBegin from "./components/LifeCycleBegin";
 import DeclarativeState from "./components/DeclarativeState";
 import LifeCycleMount from "./components/Mount";
+import LifeCycleCleanUp from "./components/CleanUpLifeCycle";
 
 const App = () => {
 
@@ -20,7 +21,9 @@ const App = () => {
 
       {/* <DeclarativeState /> */}
 
-      <LifeCycleMount />
+      {/* <LifeCycleMount /> */}
+
+      <LifeCycleCleanUp />
       
     </SafeAreaView>
   );
